@@ -1,34 +1,33 @@
 package lesson3;
 
-public class lesson3 {
-    public static void main(String[] args) {
-        System.out.println("Задание 1 ");
-        System.out.println();
-        invertArray();
-        System.out.println();
-        System.out.println();
-        System.out.println("Задание 2");
-        System.out.println();
-        fillArray();
-        System.out.println();
-        System.out.println();
-        System.out.println("Задание 3");
-        System.out.println();
-        changeArray();
-        System.out.println();
-        System.out.println();
-        System.out.println("Задание 4");
-        System.out.println();
-        createSquareArray(5);
-        System.out.println();
-        System.out.println();
-        System.out.println("Задание 5");
-        System.out.println();
-        retLenArr(5, 9);
+public class lesson3 {public static void main(String[] args) {
+    System.out.println("Задание 1 ");
+    System.out.println();
+    invertArray();
+    System.out.println();
+    System.out.println();
+    System.out.println("Задание 2");
+    System.out.println();
+    fillArray();
+    System.out.println();
+    System.out.println();
+    System.out.println("Задание 3");
+    System.out.println();
+    changeArray();
+    System.out.println();
+    System.out.println();
+    System.out.println("Задание 4");
+    System.out.println();
+    createSquareArray(5);
+    System.out.println();
+    System.out.println();
+    System.out.println("Задание 5");
+    System.out.println();
+    retLenArr(5, 9);
 
 
 
-    }
+}
 
 
 // 1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
