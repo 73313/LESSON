@@ -3,7 +3,7 @@ package lesson1;
 public class HomeWorkAdd {
     public static void main(String[] args) {
         printThreeWords();
-        checkSumSign();
+        checkSumSign(-5, 3);
         printColor();
         compareNumbers();
     }
@@ -15,9 +15,9 @@ public class HomeWorkAdd {
     }
 
 
-    public static void checkSumSign() {
-        int a = -5;
-        int b = 3;
+    public static void checkSumSign(int a,int b) {
+        //int a = -5;
+        //int b = 3;
         int res = a + b;
         if (res >= 0) {
             System.out.println("Сумма положительная");
